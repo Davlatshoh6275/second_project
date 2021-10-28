@@ -35,11 +35,6 @@ body {
     list-style: none;
 }
 
-.left ul {
-    display: flex;
-    list-style: none;
-}
-
 .left ul li {
     margin-right: 25px;
     margin-top: 40px;
