@@ -11,7 +11,6 @@ body {
 .container {
     width: 95%;
     margin: 0 auto;
-    border: 1px solid #000;
 }
 
 .navbar {
@@ -22,7 +21,6 @@ body {
 .left {
     display: flex;
     width: 55%;
-    border: 1px solid #000;
 }
 
 .left img {
@@ -50,3 +48,30 @@ body {
     width: 45%;
     
 }
+
+.right ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.right ul li {
+    margin-right: 35px;
+    margin-top: 40px;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600; 
+}
+
+.right ul li:last-child a i {
+    font-size: 45px;
+    margin-top: -16px;
+}
+
+
+
+
+
