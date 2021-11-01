@@ -949,13 +949,12 @@ header {
 
 .content_three {
     background-color: #FF7D28;
-    height: 300px;
+    height: 320px;
     margin-bottom: 50px;
     padding: 50px 0;
 }
 
 .content_three_box {
-    border: 1px solid #000;
     height: 200px;
 }
 
@@ -978,5 +977,56 @@ header {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 250px 250px 250px 250px;
-
+    
 }
+
+.input_box input {
+    height: 40px;
+    width: 270px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.input_box select {
+    height: 40px;
+    width: 270px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.input_box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+}
+
+.input_box a:hover {
+    transition: 0.6s;
+    transform: translateY(-15px);
+}
+
+
+.video_item_box img {
+    width: 250px;
+}
+
+.video_item_box {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 480px;  
+}
+
