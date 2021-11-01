@@ -7,7 +7,7 @@
     list-style: none;
 }
 body {
-    background-color: #ccc;
+    background-color: #000;
     position: relative;
 }
 
@@ -149,6 +149,7 @@ header {
 
 .btn a:first-child {
     background-color: #FF7D28;
+    box-shadow: 0 3px 12px #ff7d28!important;
 }
 
 .btn a:hover {
@@ -173,7 +174,9 @@ header {
 .content_two_box {
     display: grid;
     grid-template-columns: 500px 500px;
+    grid-template-columns: repeat(auto-fit, minmax(420px, auto));
     grid-template-rows: 420px 420px;
+    gap: 15px;
     margin-top: 40px;
 
 }
@@ -973,10 +976,15 @@ header {
     margin-bottom: 20px;
 }
 
+
+/*  */
+
 .input_box {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+
     
 }
 
@@ -1027,6 +1035,361 @@ header {
 .video_item_box {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+
     grid-template-rows: 480px;  
+    gap: 20px;
+
 }
 
+
+
+/* video_item1 */
+
+.video_item1 {
+    border: 3px solid #FB7B27;
+    border-radius: 30px;
+    padding: 20px;
+}
+.video_item2 {
+    border: 3px solid #FB7B27;
+    border-radius: 30px;
+    padding: 20px;
+}
+.video_item3 {
+    border: 3px solid #FB7B27;
+    border-radius: 30px;
+    padding: 20px;
+}
+.video_item4 {
+    border: 3px solid #FB7B27;
+    border-radius: 30px;
+    padding: 20px;
+}
+.video_item5 {
+    border: 3px solid #FB7B27;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+/* image */
+
+.image  img {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+
+.content_four {
+    margin-bottom: 100px;
+}
+
+/* teachers */ 
+
+.teachers {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-rows: 480px;  
+    gap: 20px;
+}
+
+
+
+.teachers img {
+    width: 300px;
+}
+
+.teachers h2 {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.teachers h3 {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #A9A9A9;
+}
+
+
+/* question */
+
+.question {
+    background-color: #FF7D28;
+    height: 1150px;
+    margin-top: 100px;
+    padding: 100px 20px 0 20px;
+}
+
+.question h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.one {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 80px;
+    align-items: center;
+    border-top: 1px solid #fff;
+}
+
+.one p {
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.one i {
+    font-size: 36px;
+    color: #8D4516;
+}
+
+.one:last-child {
+    border-bottom: 1px solid #D58857;
+}
+
+
+/* map */
+
+.map {
+    height: 600px;
+    border-bottom: 3px solid #000;    
+    background-color: #fff;
+}
+
+/* footer */
+
+footer {
+    background-color: #FF7D28;
+    padding: 100px 0 20px 0;
+}
+
+footer h2 {
+    margin-left: 200px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+footer p {
+    margin-left: 200px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.input3 {
+    margin-left: 200px;
+    display: flex;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+.input3 input {
+    
+
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-right: 10px;
+}
+
+
+.input3 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+.input3 a:hover {
+    transition: 0.6s;
+    transform: translateY(-15px);
+}
+
+.links {
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.links a {
+    color: #fff;
+
+}
+
+.links2 {
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.links2 a {
+    color: #fff;
+}
+
+.links3 {
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.links3 a {
+    color: #fff;
+}
+
+footer h3 {
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 14px;
+    color: #FFD4B7;
+}
+
+.bg2 {
+    display: none;
+}
+
+.titleTwo {
+    display: none;
+}
+
+
+@media only screen  and  (max-width: 580px) {
+    .one {
+        width: 400px;
+    }
+
+    .bg2 {
+        display: block;
+    }
+    
+    .bg2 img {
+        margin-top: 550px;
+        width: 370px;
+        margin-left: 150px;
+        margin-bottom: 100px;
+
+    }
+
+    .content_two {
+        margin-top: 150px;
+    }
+
+    .title h2 {
+        display: none;
+    }
+
+    .title h3 {
+        display: none;
+    }
+
+    .titleTwo {
+        display: block;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 800;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        width: 400px;
+    }
+    .content {
+        width: 400px;
+    }
+
+    .title ul {
+        width: 400px;
+    }
+
+    .left ul {
+        display: none;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .content_three_box p {
+        width: 450px;
+    }
+
+    .input_box input {
+        width: 450px;
+        margin-bottom: 20px;
+    }
+
+    .input_box select {
+        width: 450px;
+        margin-bottom: 20px;
+    }
+
+    .input_box  a{
+        height: 40px;
+        width: 450px;
+        margin-bottom: 10px
+    }
+
+    .content_three {
+        height: 520px;
+    } 
+
+    .input3 input {
+        margin-bottom: 20px;
+    }
+
+    footer h2 {
+        margin-left: 0;
+    }
+
+    footer p {
+        margin-left: 0;
+    }
+
+    .input3 input {
+        margin-left: -200px;
+    }
+
+    .input3 a {
+        margin-left: -200px;
+        height: 40px;
+    }
+
+    .links {
+        margin-left: 0;
+    }
+    .links2 {
+        margin-left: 0;
+    }
+    .links3 {
+        margin-left: 0;
+    }
+
+    .bg {
+        width: 580px;
+    }
+
+    
+}
